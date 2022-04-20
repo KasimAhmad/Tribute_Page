@@ -1,0 +1,55 @@
+body {
+    background-color: hsl(33,70%,85%);
+  
+  }
+  h1 {
+    font-family: system-ui;
+    text-align: center;
+    color: hsl(20,10%,50%);
+    animation-name: color;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes color {
+    0%{
+      color: gray;
+    }
+    100% {
+      color: maroon;
+    }
+  }
+  
+  #image {
+    border: 20px solid hsl(33,70%,89%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 20%;
+  }
+  
+  #image:hover {
+    transform: scale(1.1);
+  }
+  
+  #img-caption {
+    padding: 2em;
+    text-align: center;
+    font-style: italic;
+    font-size: normal;
+  }
+  
+  .text_border {
+    background-color: hsl(33,70%,89%);
+    border: thin sliver solid;
+    margin-bottom: 1em;
+    padding: 1em;
+    text-align: center;
+  }
+    #tribute-info {
+      font-family: system-ui;
+      font-size: 12pt;
+    }
+  #tribute-link {
+    font-size: 16pt;
+  }
