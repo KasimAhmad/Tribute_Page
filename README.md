@@ -2,8 +2,8 @@
 
 Built a custom Tribute page to Martin Luther King Jr. to practice HTML & CSS skills
 
-===================================================================================================================================
-#[Build a Tribute Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page)
+
+# [Build a Tribute Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page)
 
 Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNqgVx.
 
