@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <title>Test Survey Form</title>
+</head>
+
+<body>
+  <h1 id="title"> <span>Test Survey Form </span></h1>
+  <p id="description"> This is a test survey form being created through CodePen by Kasim A </p>
+  <div id="center">
+    <form action="" id="survey-form">
+      <label for="name" id="name-label">
+        <p class="name textb">First Name:<input type="text" id="name" class="name box" placeholder="First Name*" required></p>
+        <p class="name textb">Last Name:<input type="text" id="lastname" class="name box" placeholder="Last Name*" required></p>
+      </label>
+      <p class="address textb">Address:<input type="text" id="address" class="address box" placeholder="Street Address or PO BOX*" required></p>
+      <p class="address textb">Address 2:<input type="text" id="address2" class="address box" placeholder="Apt,Ste,Unit,ect."></p>
+      <p class="city demo textb">City:<input type="text" id="city" class="city demo box" placeholder="City*" required></p>
+      <p class="state demo textb">State:<input type="text" id="state" class="state demo box" placeholder="*" required></p>
+      <p class="zipcode demo textb">Zip Code:<input type="text" class="zipcode demo box" placeholder="Zip Code*" required></p>
+      <label for="number" id="number-label">
+        <p class="number contact textb">Phone Number:<input type="number" min="0" max="100" id="number" class="number contact box" placeholder="Phone Number*" required></p>
+      </label>
+      <label for="email" id="email-label">
+        <p class="email contact textb">Email Address:<input type="email" id="email" class="email contact box" placeholder="Email Address*" required></p>
+      </label>
+      <label for="expertise" class="expertise textb" id="dropdown">Rate your level of expertise:
+        <select name="expertise" id="dropdown" class="expertise">
+          <option value="advanced">advanced</option>
+          <option value="proficient">proficient</option>
+          <option value="beginner">beginner</option>
+      </label>
+      </select>
+      <p class="radio"> Are you ready to learn?</p>
+      <label for="yes">
+        <input type="radio" name="radio" id="yes" class="radio" value="yes">Yes</input>
+      </label>
+      <label for="no">
+        <input type="radio" name="radio" id="no" class="radio" value="no">No</input>
+      </label>
+      <p class="checkbox"> What meals did you eat today?</p>
+      <label for="breakfast">
+        <input type="checkbox" name="breakfast" id="breakfast" class="checkbox" value="breakfast">breakfast</input>
+      </label>
+      <label for="lunch">
+        <input type="checkbox" name="lunch" id="lunch" class="checkbox" value="lunch">lunch</input>
+      </label>
+      <label for="dinner">
+        <input type="checkbox" name="dinner" id="dinner" class="checkbox" value="dinner">dinner</input>
+      </label>
+      <div class="center">
+        <label for="Comments">
+          <textarea name="" id="Comments" cols="60" rows="10" class="Comments" placeholder="Additional comments here...">Additional Comments:</textarea>
+        </label>
+      </div>
+
+      <p class="submit"><input type="submit" id="submit" class="submit"></p>
+    </form>
+  </div>
+</body>
+
+</html>
